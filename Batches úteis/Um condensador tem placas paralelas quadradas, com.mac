@@ -1,0 +1,5 @@
+funcao() := block(
+A:read("lado"),
+D:read("separados"),
+Res:float(((A^2)*1.602e-19)/(4*%pi*D))	
+)$

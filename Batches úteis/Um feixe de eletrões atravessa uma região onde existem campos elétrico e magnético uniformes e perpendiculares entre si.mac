@@ -1,0 +1,9 @@
+
+funcao() := block(
+	print ("1G=1Te-4"),
+	campoele: read ("campo electrico"),
+	campomag: read ("campo magnetico"),
+	v: campoele/campomag
+	
+
+)$

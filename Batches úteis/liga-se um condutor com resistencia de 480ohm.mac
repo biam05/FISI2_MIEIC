@@ -1,0 +1,8 @@
+funcao() := block(
+	R: read ("resistencia"),
+	Rint: read ("resistencia interna"),
+	fem: read ("volt"),
+	corrente: fem/(R+Rint)
+	
+	
+)$

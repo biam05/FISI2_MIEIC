@@ -1,0 +1,9 @@
+load("vect");
+funcao():=(
+	print ("cuidado com os sinais e posicoes(ex)"),
+	v: read("vetor que falta, pode ser ex: [c,0,0]"),
+	B: read("vetor 2 "),
+	express (v~B)
+		
+)$
+	

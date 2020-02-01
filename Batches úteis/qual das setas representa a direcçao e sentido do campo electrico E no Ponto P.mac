@@ -1,0 +1,5 @@
+funcao() := block(
+	print ("a induntancia de uma bobine não se altera"),
+	print ("  ---> linha horizontal <--- ")
+		
+)$

@@ -1,0 +1,6 @@
+custoconsumo() := block(
+	potencia: read ("qual a potencia?"),
+	tempo: read ("qual o tempo"),
+	custokwh: read ("qual o custo kwh?"),
+	print ("valor a pagar", potencia*tempo*custokwh)
+)$

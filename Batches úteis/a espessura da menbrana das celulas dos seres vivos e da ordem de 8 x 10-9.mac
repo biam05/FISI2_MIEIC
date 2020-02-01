@@ -1,0 +1,6 @@
+funcao() := block(
+	d: read("espessura"),
+	E: read("campo electrico"),
+	integrate(E,x,0,d)
+	
+)$

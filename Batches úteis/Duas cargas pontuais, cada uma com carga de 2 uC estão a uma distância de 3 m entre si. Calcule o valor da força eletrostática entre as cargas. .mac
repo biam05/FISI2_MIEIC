@@ -1,0 +1,8 @@
+funcao():= (
+	q1: read ("carga 1"),
+	q2: read ("carga 2"),
+	d: read ("distancia"),
+	f1: (9e9*q1*q2)/(d**2),
+	f2: (9e9*q1*q2)/((4*d)**2),
+	sqrt(f1/f2)
+)$

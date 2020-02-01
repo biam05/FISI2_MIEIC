@@ -1,0 +1,8 @@
+funcao() := block(
+	ZL: read ("indutancia"),
+	C: read ("carga"),
+	ZC: 1/C,
+	ZTotal: (ZL*ZC)/(ZL+ZC),
+	ratsimp (ZTotal)
+		
+)$

@@ -1,0 +1,13 @@
+funcao():=block(
+	R1: read("resistencia 1"),
+	R2: read("resistencia 2"),
+	W: read("potencia"),
+	I1: sqrt(W/R1),
+	I2: sqrt(W/R2),
+	V1: sqrt(W*R1),
+	V2: sqrt(W*R2),
+	I3: R1*I1/R2,
+	(if (V1 < V2) then ((R1*R2)/(R1+R2))*(I1+I3)^2
+	 else ((R1*R2)/(R1+R2))*(I2+I3)^2)
+)$
+funcao();

@@ -1,0 +1,12 @@
+﻿funcao() := block(
+	
+	
+	elect: read ("electrões"),
+	ddp: read ("potencial"),
+	Q: elect*1.602*10^-19,
+	C: Q/ddp
+	
+	
+	
+	
+)$

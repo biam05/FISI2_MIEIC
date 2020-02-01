@@ -1,0 +1,9 @@
+funcao():= (
+	C1: read ("capacidade 1"),
+	C2: read ("Capacidade 2"),
+	V: read ("fonte"),
+	C: (C1*C2)/(C1+C2),
+	Q: C*V,
+	print("ddp em C1-",C1,"uF -->", Q/C1," ddp em C2-", C2, "uF -->", Q/C2),
+	print("carga em C1-",C1,"uF -->", Q/C1*C1," carga em C2-", C2, "uF -->", Q/C2*C2)
+)$

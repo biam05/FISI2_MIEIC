@@ -1,0 +1,15 @@
+funcao() := block(
+	print ("formula: F=q*(v*B)"),
+	print,
+	print,
+	fangular: read ("fangular:"),
+	C: read ("carga:"),
+	R: read ("resistencia:"),
+	X1: %i*fangular*L,
+	Xc: -%i/C/fangular,
+	Z: R+X1+Xc,
+	Z: imagpart (Z),
+	float (solve (Z=0))
+	
+	
+)$

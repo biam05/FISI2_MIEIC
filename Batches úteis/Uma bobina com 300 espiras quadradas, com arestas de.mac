@@ -1,0 +1,7 @@
+funcao() := block(
+	V1: read ("espiras"),
+	V2: read ("arestas"),
+	B: read ("campo magmetico"),
+	RES:(V2^2*V1)*B
+	
+)$

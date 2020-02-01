@@ -1,0 +1,9 @@
+funcao():=(
+	i: read("cord i "),
+	j: read("cord j "),
+	k: read("cord k "),
+	B: diff(i, x)+ diff(j,y)+ diff(k,z),
+	solve (B, a)
+		
+)$
+	

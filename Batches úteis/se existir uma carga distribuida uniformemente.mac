@@ -1,0 +1,9 @@
+funcao() := block(
+	print ("Eplano=2*%pi*O"),
+	print ("E ponto = [0,E(xOz), E(xOy)]"),
+	cargaxz: read ("cargaxz"),
+	cargaxy: read ("cargaxy"),
+	E: sqrt((2*%pi*cargaxz*9*10^9)^2+(2*%pi*cargaxy*9*10^9)^2),
+	float (E)
+)$
+funcao();

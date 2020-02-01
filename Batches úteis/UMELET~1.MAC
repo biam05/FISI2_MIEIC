@@ -1,0 +1,8 @@
+funcao() := block(
+	print("a = v dv/dx, F= m a, E = F /q"),
+	V: read("Velocidade"),
+	M: read("Massa"),
+	A: V*diff(V,x),
+	F: (M)*A,
+	E: F/(1.602e-19)
+)$

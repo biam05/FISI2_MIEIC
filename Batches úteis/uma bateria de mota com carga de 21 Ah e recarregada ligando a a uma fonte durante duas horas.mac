@@ -1,0 +1,7 @@
+funcao() := block(
+	Ah: read ("Ah inicial:"),
+	Ai: read ("A inicial:"),
+	Af: read ("A final:"),
+	t: read("tempo"),
+	Ah: Ah+(Ai+Af)/2*t
+)$

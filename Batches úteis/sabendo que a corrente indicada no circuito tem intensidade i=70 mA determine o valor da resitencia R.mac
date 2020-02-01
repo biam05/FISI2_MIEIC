@@ -1,0 +1,9 @@
+funcao() := block(
+	I: read("Intensidade"),
+	R1: read("Resistencia na diagonal"),
+	R2: read("Resistencia vertical"),
+	VC: read("Voltagem de cima"),
+	VB:	read("Voltagem de baixo"),
+	SOL: solve([R1*I-R1*i+R2*I=VB,R1*i-R1*I+R*i=-VC],[R,i]), 	
+	float(SOL)
+)$

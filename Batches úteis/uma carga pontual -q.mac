@@ -1,0 +1,7 @@
+funcao() := block(
+	q1: read ("primeira carga -q"),
+	q2: read ("segunda carga 2q"),
+	x: read ("posicao da carga eixo xis:"),
+	pos: x^2+y^2=(q2/q1)^2*y^2,
+	float(solve(pos,y))
+)$

@@ -1,0 +1,8 @@
+funcao() := block(
+	A: read ("área"),
+	Q: read ("carga"),
+	float(2*%pi*9e9*Q/A)
+	
+	
+)$
+respostaEm=KN/C;

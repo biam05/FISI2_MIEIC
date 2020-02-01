@@ -1,0 +1,17 @@
+
+funcao():= block(
+
+	R: read("resistencia"),
+	C: read("condensador"),
+	f: read("frequencia"),
+	V: read("fonte"),
+	w: 2*%pi*f,
+	Zc: 1/(w*C),
+	Zr: sqrt(R^2+Zc^2),
+	I: V/Zr,
+	float(I)
+	
+)$
+
+
+

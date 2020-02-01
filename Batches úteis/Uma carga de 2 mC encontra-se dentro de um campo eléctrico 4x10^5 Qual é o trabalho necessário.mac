@@ -1,0 +1,8 @@
+funcao() := block(
+Q: read("carga"),
+E: read("campo eletrico"),
+D: read("distancia"),
+A: read("angulo"),
+F: Q*E,
+W: float(F*D*cos(A*(%pi/180)))
+)$

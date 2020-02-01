@@ -1,0 +1,19 @@
+funcao() := block(
+	print ("     ------C1-------       "),
+	print ("     |             |      "),
+	print ("A.-- |             |--C3----.B"),
+	print ("     |             |      "),
+	print ("     ------C2-------"),
+	print,
+	print,
+	C1: read ("carga C1"),
+	C2: read ("carga C2"),
+	C3: read ("carga C3"),
+	V: read ("volt"),
+	C4: C1+C2,
+	C5: (C3*C4)/(C3+C4),
+	Q: C5*V,
+	print ("carga em C3: ",Q,"C"),
+	U: 0.5*Q*Q/C3,
+	print ("energia em C3: ",U,"J")	
+)$

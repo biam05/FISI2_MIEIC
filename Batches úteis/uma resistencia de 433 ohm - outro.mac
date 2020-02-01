@@ -1,0 +1,17 @@
+funcao() := block(
+	print ("formula: F=q*(v*B)"),
+	print,
+	print,
+	f: read ("frequencia"),
+	C: read ("carga:"),
+	C: -%i/(f*C),
+	R: read ("resistencia:"),
+	H: read ("  H  "),	
+	l(L):= %i*f*L,
+	print ("se o expoente for positivo a tensão(deltaV) está adiantada"),
+	print ("se o resultado for igual ao da resistencia partem da origem"),
+	print ("..."),
+	polarform(float(rectform(R+C+l(H))))
+	
+	)$
+

@@ -1,0 +1,5 @@
+funcao() := block(
+	print ("paralelo: soma das cargas e fem igual"),
+	print ("serie: soma das fems e carga igual")
+	
+)$

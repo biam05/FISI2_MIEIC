@@ -1,0 +1,8 @@
+funcao() := block(
+	Iin: read ("corrente inicial"),
+	Ifi: read ("corrente final"),
+	t: read ("tempo"),
+	carga: (Iin+Ifi)/2*t
+	
+	
+)$

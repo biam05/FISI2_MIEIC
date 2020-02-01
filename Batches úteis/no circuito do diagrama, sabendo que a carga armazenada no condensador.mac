@@ -1,0 +1,16 @@
+funcao() := block(
+	print ("--------3nF----"),
+	print ("|         |    |"),
+	print ("|         |    |"),
+	print ("-----C1 ---    |"),
+	print ("|              |"),
+	print ("--2nF-----V-----"),
+	C1: read ("condensador = a "),
+	Q1: read (" carga armazenada"),
+	C: read ("paralelo ou serie"),
+	C2: read(" carga ao lado da fem ε"),
+	V: Q1/C1,
+	Q: C*V,
+	DV:Q/C2,
+	Volt: DV+V
+)$

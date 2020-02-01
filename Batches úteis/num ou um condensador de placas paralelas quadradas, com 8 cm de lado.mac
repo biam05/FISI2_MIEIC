@@ -1,0 +1,11 @@
+funcao() := block(
+	lado: read ("lado"),
+	d: read ("distancia"),
+	V: read ("volt"),
+	A: lado*lado,
+	D: 4*%pi*9*10^9*d,
+	C: A/D,
+	Q: C*V	
+
+	
+)$

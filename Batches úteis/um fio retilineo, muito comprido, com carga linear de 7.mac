@@ -1,0 +1,8 @@
+funcao() := block(
+	C: read ("carga"),
+	x: read ("eixo dos x"),
+	y: read ("eixo y"),
+	Efio: float (2*9*10^9*C/sqrt(x^2+y^2))
+	
+	
+)$

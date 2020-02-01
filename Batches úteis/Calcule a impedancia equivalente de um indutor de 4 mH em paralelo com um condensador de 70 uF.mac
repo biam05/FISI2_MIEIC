@@ -1,0 +1,9 @@
+funcao() := block(
+	print("sem as unidades e-3(m) e e-6(u)"),
+	L: read ("indutor"),
+	C: read ("condensador"),
+	ZL: L*s,
+	ZC: 1/(C*s),
+	Zparalelo:(ZL*ZC)/(ZL+ZC),
+	ratsimp(Zparalelo)
+)$

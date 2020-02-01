@@ -1,0 +1,14 @@
+funcao() := block(
+	print ("condensadores em paralelo"),
+	C1: read ("C1"),
+	C2: read ("C2"),
+	C3: read ("condensador em série"),
+	Q: read ("carga do condensador"),
+	Ct: ((C1+C2)*C3/(C1+C2+C3))*Q,
+	print ("ddp em C3: ",Ct/C3),
+	print ("ddp em C1||c2: ",Ct/(C1+C2)),
+	print ("ddp total: ", (Ct/C3)+Ct/(C1+C2))
+	
+	
+	
+)$

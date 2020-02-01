@@ -1,0 +1,10 @@
+
+funcao() := block(
+	cargaesf1: read ("carga esfera menor"),
+	raioesf1: read ("raio esfera menor"),
+	cargaesf2: read ("carga esfera maior"),
+	raioesf2: read ("raio esfera maior"),
+	ponto: read ("ponto do centro"),
+	potencial: 9*10^9*cargaesf1/ponto+9*10^9*cargaesf2/raioesf2	
+
+)$

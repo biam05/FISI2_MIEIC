@@ -1,0 +1,10 @@
+funcao() := block(
+	C(w,c):= -%i/(w*c),
+	C1: read ("condensador"),
+	R: read ("resistencia"),
+	f: read ("frequencia"),
+	W: 2*%pi*f,
+	Z: (-%i/(C1*W))+R,
+	RES:float(carg(Z)),
+	float((RES*180)/%pi)
+)$

@@ -1,0 +1,5 @@
+funcao() := block(
+	DV: read ("potencia eletrica"),
+	DS: read ("modulo campo eletrico"),
+	float(DV/DS)
+)$

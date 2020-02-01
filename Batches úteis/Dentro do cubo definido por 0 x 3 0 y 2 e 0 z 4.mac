@@ -1,0 +1,5 @@
+funcao() := block(
+E: read("funcao"),
+func: diff(E,x)+diff(E,y)+diff(E,z)
+)$
+	

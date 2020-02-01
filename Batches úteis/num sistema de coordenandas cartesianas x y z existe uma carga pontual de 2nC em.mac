@@ -1,0 +1,12 @@
+funcao() := block(
+	
+	print ("só contam as cargas que estão dentro da esfera"),
+	print (""),
+	print (""),
+	c1: read ("carga1"),
+	c2: read ("carga2"),
+	4*%pi*9e9*(c1+c2)
+	
+	
+	
+)$

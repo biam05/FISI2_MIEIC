@@ -1,0 +1,15 @@
+funcao() := block(
+	
+	
+	A1: read ("corrente 1"),
+	A2: read ("corrente 2"),
+	A3: read ("corrente 3"),
+	d1: read ("distancia 1"),
+	d2: read ("distancia 2"),
+	Fab: (2e-7*A1*A2)/d1,
+	Fbc: (2e-7*A2*A3)/d2,
+	F: sqrt(Fab^2+Fbc^2)
+	
+	
+	
+)$

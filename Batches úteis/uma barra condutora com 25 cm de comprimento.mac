@@ -1,0 +1,8 @@
+funcao() := block(
+	c: read("comprimento"),
+	v: read("velocidade"),
+	B: read("campo magnetico"),
+	
+	ddp: c*v*B/10^4
+
+)$

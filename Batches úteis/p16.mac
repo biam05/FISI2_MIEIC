@@ -1,0 +1,16 @@
+
+funcao() := block(
+	print ("passou muito tempo ignorar a bobine"),
+	print ("passa a ser (serie+paralelo) = rtotal"),
+	print ("R= V/I"),
+	restserie: read ("resistencias em série:"),
+	restparal: read ("resistencias em paralelo 3*6/(3+6)"),
+	V: read ("fonte:"),
+	I: float(V/(restserie+restparal))
+	
+	
+	
+)$
+
+
+

@@ -1,0 +1,4 @@
+funcao() := block(
+	print ("se I variar em funcao do tempo.")
+		
+)$

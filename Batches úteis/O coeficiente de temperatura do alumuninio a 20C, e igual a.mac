@@ -1,0 +1,8 @@
+funcao() := block(
+	R: read("resistencia"),
+	R20: read("resistencia 20c"),
+	Cof: read("coeficiente20"),
+	T: read("Temperatura"),
+	RES:R=R20*(1+Cof*(T-20)),
+	float(solve(RES))
+)$

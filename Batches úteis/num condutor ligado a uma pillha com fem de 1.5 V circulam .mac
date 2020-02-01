@@ -1,0 +1,13 @@
+funcao() := block(
+	print,
+	print,
+	print,
+	numel: read ("numero de electroes:"),
+	t: read ("tempo:"),
+	V: read ("fem"),
+	Q: (numel*1.602e-19),
+	I: Q/t,
+	
+	print("carga: ", Q, "---- corrente: ", I, "---- energia fornecida ", Q*V, "---- potencial", I*V)
+	
+)$

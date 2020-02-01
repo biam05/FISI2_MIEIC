@@ -1,0 +1,7 @@
+funcao() := block(
+E: read ("campo eletrico"),
+X1: read ("X1"),
+X2: read ("X2"),
+float(potencial: integrate(E,x,X1,X2))
+
+)$

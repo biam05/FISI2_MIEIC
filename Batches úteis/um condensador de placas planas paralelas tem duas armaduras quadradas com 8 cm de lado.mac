@@ -1,0 +1,10 @@
+funcao() := block(
+	print("atenção às unidades mm"),
+	lado: read("lado"),
+	diam: read ("separação"),
+	rigidez: read ("rigidez dielectrica"),
+	rigidez*diam
+	
+	
+	
+)$

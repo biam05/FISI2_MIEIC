@@ -1,0 +1,8 @@
+funcao() := block(
+	v1: read ("vector 1"),
+	v2: read ("vector 2"),
+	v3: v1-v2,
+	p: read ("potencial"),	
+	(p*(sqrt(v3[1]^2+v3[2]^2+v3[3]^2)))/9e9
+	
+)$

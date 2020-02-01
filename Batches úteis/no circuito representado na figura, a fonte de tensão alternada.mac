@@ -1,0 +1,16 @@
+funcao() := block(
+	C1: read ("condensador 1"),
+	C2: read ("condensador 2"),
+	I: read ("indutor"),
+	f: read ("frequencia"),
+	Vi: read ("volt inicial"),
+	w: 2*%pi*f,
+	Z1: -( 1/(w*C1)),
+	Z2: w*I,
+	Z3: Z1+Z2,
+	I3: 40/Z3,
+	V1: I3*Z1
+	
+	
+	
+)$

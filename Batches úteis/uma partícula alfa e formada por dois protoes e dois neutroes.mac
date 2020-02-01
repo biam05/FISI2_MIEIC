@@ -1,0 +1,10 @@
+funcao() := block(
+	print ("formula: F=q*(v*B)"),
+	print,
+	print,
+	v: read ("velocidade:"),
+	B: read ("campo magnetico:"),
+	n: read ("numero protoes:"),
+	Fm: (n*1.6e-19)*v*B
+	
+)$

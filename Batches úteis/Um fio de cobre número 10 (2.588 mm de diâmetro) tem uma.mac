@@ -1,0 +1,13 @@
+funcao() := block(
+R: read("Resistencia"),
+D: read("Diametro"),
+M: read("Material: Prata p20 16e-9 coeficiente20 0.0038
+Cobre      17e-9      0.0039
+Aluminio   28e-9      0.0039
+Tungstenio 55e-9      0.0045
+Ferro      100e-9     0.0050
+Chumbo	   220e-9     0.0043
+Niquel cromio 1000e-9 0.0004
+Grafite    35000e-9  -0.0005"),
+L: float((%pi*(D/2)^2)*(R/M))
+)$

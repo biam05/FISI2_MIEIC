@@ -1,0 +1,11 @@
+funcao() := block(
+	Ci: read ("carga inicial"),
+	Cf: read ("carga final"),
+	ei: read ("espaco inicial"),
+	ef: read("espaco final"),
+	pow:(second(first(ifactors(Cf/Ci)))),
+	(Cf/Ci)^pow*(ef/ei)
+	
+	
+	
+)$

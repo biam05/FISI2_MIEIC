@@ -1,0 +1,15 @@
+funcao() := block(
+	print("---40V------"),
+	print("|      |   |"),
+	print("S1    P1  P2"),
+	print("|      |  uF"),
+	print("|      |   |"),
+	print("------------"),
+	V: read ("fem:"),
+	R6K: read ("resistencia P 1"),
+	R3K: read ("resistencia P 2"),
+	R2K: read ("resistencia S 1"),
+	Rt: (R6K*R3K)/(R6K+R3K)+R2K,
+	I: V/Rt
+	
+)$

@@ -1,0 +1,12 @@
+funcao() := block(
+	R1: read("R1"),
+	R2: read("R2"),
+	V1: read("Volt esquerda"),
+	V2: read("Volt1+volt2 lado direito"),
+	eq1: (I1-I2)*R1=V1,
+	eq2: -R1*I1+(R2+R1)*I2=-V2,
+	float(solve([eq1,eq2]))
+	
+	
+	
+)$

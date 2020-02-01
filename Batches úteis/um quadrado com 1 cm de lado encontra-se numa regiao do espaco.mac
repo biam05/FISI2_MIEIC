@@ -1,0 +1,7 @@
+funcao() := block(
+	l: read ("lado"),
+	E: read ("campo electrico"),
+	ang: read("angulo"),
+	Fluxo: l^2*E*sin(ang*%pi/180)
+		
+	)$

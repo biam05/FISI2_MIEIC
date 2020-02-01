@@ -1,0 +1,21 @@
+funcao() := block(
+	print (" -----------------R2--------.P"),
+	print (" |           |              |"),
+	print (" |           |              |"),
+	print ("R1           C              L"),
+	print (" |           |              |"),
+	print (" |           |              |"),
+	print (" ------------.Q--------------"),
+	print,
+	R1: read("R1"),
+	R2: read("R2"),
+	C: read("C"),
+	L: read("L"),
+	Z2: L/(C*s),
+	Z3: L*s,
+	Z: (Z2*R1)/(Z2+R1),
+	Z: Z+R2,
+	Z: (Z*Z3)/(Z+Z3),
+	ratsimp(Z)
+	
+)$

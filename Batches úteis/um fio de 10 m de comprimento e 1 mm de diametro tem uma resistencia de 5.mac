@@ -1,0 +1,12 @@
+funcao() := block(
+	l1: read ("comprimento fio 1"),
+	d1: read ("diametro fio 1"),
+	r: read ("resistencia fio 1"),
+	l2: read ("comprimento fio 2"),
+	d2: read ("diametro fio 2"),
+	O: (r*d1^2*%pi)/l1,
+	R: O*l2/(d2^2*%pi) 
+	
+	
+	
+)$

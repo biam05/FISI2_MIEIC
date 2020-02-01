@@ -1,0 +1,9 @@
+funcao():=(
+	f: read ("fluxo"), 
+	x: read("aresta x "),
+	y: read("aresta y"),
+	z: read("aresta z"),
+	vol: (f/(4*%pi*9e9)/(x*y*z)),
+	float(vol)	
+)$
+	

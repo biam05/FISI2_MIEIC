@@ -1,0 +1,8 @@
+funcao():=(
+	h: 6.626e-34,
+	c: 3e8,
+	e: 1.6e-19,
+	E: read("força contra-eletromotriz"),
+	f: (h*c)/(e*E)
+	
+)$

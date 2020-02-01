@@ -1,0 +1,5 @@
+funcao() := block(
+	print ("maior que V0")
+	
+	
+)$

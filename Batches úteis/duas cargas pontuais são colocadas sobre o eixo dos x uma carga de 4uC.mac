@@ -1,0 +1,11 @@
+
+funcao() := block(
+	carga1: read ("carga 1"),
+	pos1: read ("posição carga 1"), 
+	carga2: read ("carga 2"),
+	pos2: read ("posição carga 2"),
+	pos3: read ("ponto para calculo"),
+	E: 9*10^9*(carga1/(sqrt((pos1-pos3)^2))^2+carga2/(sqrt((pos2-pos3)^2))^2)
+	
+
+)$

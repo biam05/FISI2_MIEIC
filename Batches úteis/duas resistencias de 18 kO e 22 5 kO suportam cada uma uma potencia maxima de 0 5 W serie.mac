@@ -1,0 +1,12 @@
+funcao() := block(
+	R1: read ("resistência 1"),
+	R2: read ("resistência 2"),
+	W: read ("potencia"),
+	I1: sqrt(W/R1),
+	I2: sqrt(W/R2),
+	(if (I1 < I2) then (R1+R2)*I1^2
+		else (R1+R2)*I2^2)
+		
+
+)$
+funcao();

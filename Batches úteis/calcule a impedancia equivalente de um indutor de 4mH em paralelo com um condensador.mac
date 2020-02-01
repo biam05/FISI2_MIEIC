@@ -1,0 +1,10 @@
+funcao() := block(
+	ZL: read ("indutor"),
+	ZL: ZL*s,
+	ZC: read ("condensador"),
+	ZC: 1/(ZC*s),
+	Ztotal: ZL*ZC/(ZL+ZC)
+	
+	
+	
+)$

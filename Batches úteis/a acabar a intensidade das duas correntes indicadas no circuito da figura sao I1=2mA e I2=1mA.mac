@@ -1,0 +1,5 @@
+funcao() := block(
+	eq: read("expressao"),
+	integrate(-(eq,x,1,4))
+	
+)$

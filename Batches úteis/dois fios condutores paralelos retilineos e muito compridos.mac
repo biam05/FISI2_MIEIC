@@ -1,0 +1,10 @@
+
+/* 2.49e-9=2*1e-7*i^2/0.093; */
+
+funcao() := block(
+	d: read ("distancia"),
+	B: read ("força"),
+	I: sqrt(B*d/2e-7)
+	
+	
+)$

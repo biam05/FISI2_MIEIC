@@ -1,0 +1,5 @@
+funcao() := block(
+	print ("É maior quanto maior for o tamanho do condutor")
+	
+	
+)$

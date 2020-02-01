@@ -1,0 +1,7 @@
+funcao() := block(
+	X: read ("X(X,Y,Z)"),
+	Y: read ("Y"),
+	Q1: read ("Q de X"),
+	Q2: read ("Q de Y"),
+	QP: float(9e9*((Q1/X)+(Q2/Y)))
+)$

@@ -1,0 +1,7 @@
+funcao() := block(
+	C: read ("carga condensador"),
+	V: read ("fem pilha"),
+	1/2*C*V^2
+	
+	
+)$

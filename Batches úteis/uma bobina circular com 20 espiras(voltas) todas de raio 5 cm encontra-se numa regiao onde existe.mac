@@ -1,0 +1,19 @@
+load("vect")$
+funcao() := block(
+	print,
+	print,
+	e: read ("espiras:"),
+	r: read ("raio:"),
+	ang: read ("angulo:"),
+	T: read ("campo magnético"),
+	I: read ("corrente"),
+	n: [1,0,0],
+	A: r^2*%pi*e,
+	ang: ang*%pi/180,
+	m: A*I*n,
+	B: [T*cos(ang),T*sin(ang), 0],
+	M: express(m~B),
+	M: sqrt(M.M),
+	float(M)
+	
+)$

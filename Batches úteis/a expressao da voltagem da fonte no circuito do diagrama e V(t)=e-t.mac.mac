@@ -1,0 +1,9 @@
+funcao():=(
+	R: read("resistencia"),
+	V: read("voltagem"),
+	I: read("corrente"),
+	z1: ratsimp(laplace(V,t,s)/laplace(I,t,s)),
+	z2: ratsimp(R+L*s),
+	solve([z1=z2],L)
+		
+)$

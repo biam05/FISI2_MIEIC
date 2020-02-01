@@ -1,0 +1,8 @@
+funcao() := block(
+	raio: read ("raio"),
+	distancia: read ("distancia"),
+	A: %pi*raio^2,
+	C: A/(4*%pi*9*10^9*distancia)
+	
+		
+)$

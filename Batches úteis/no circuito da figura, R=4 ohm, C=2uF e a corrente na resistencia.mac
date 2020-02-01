@@ -1,0 +1,11 @@
+funcao() := block(
+	R: read ("resistencia:"),
+	C: read ("carga"),
+	I: read ("corrente:"),
+	I: laplace (I, t, s),
+	H: R+1/(C*s),
+	Ve: H*I,
+	I: ratsimp (Ve)
+	
+	
+)$

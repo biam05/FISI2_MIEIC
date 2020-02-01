@@ -1,0 +1,9 @@
+funcao() := block(
+	E: read ("campo"),
+	r: read ("raio"),
+	d: read ("distancia"),
+	Q: (E*(r+d)^2)/(9*10^9)
+	
+	
+	
+)$

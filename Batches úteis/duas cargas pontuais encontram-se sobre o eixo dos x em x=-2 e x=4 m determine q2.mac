@@ -1,0 +1,10 @@
+
+funcao() := block(
+	q1: read ("carga 1"),
+	p1: read ("posição carga 1"), 
+	p2: read ("posição carga 2"),
+	p0: read ("posição potencial zero"),
+	V: 0=9e9*q1/sqrt(p0-p1)^2-9e9*q2/sqrt(p0-p2)^2,
+	solve (V,q2)
+
+)$

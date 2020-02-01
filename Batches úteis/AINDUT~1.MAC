@@ -1,0 +1,15 @@
+
+funcao():= block(
+
+	R: read("resistencia"),
+	H: read("indutor"),
+	f: read("frequencia"),
+	w: 2*%pi*f*%i,
+	Zl: w*H,
+	Z: R+Zl,
+	float(carg(Z))
+	
+)$
+
+
+

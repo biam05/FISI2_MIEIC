@@ -1,0 +1,10 @@
+funcao() := block(
+	print ("R=H/t"),
+	H: read("Indutancia - atenção as unidades"),
+	t: read("tempo - atenção as unidades"),
+	R: H/t
+		
+)$
+
+
+

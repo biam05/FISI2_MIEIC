@@ -1,0 +1,10 @@
+funcao() := block(
+	V: read ("fonte de tensão"),
+	P: read ("potencia"),
+	t: read ("tempo"),
+	I: P/V,
+	Q: t*I
+
+	
+	
+)$

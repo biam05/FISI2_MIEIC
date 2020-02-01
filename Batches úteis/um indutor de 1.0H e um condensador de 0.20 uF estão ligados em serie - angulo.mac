@@ -1,0 +1,11 @@
+funcao() := block(
+	print ("formula L*%i*w-%i/(C*w)"),
+	L: read ("indutancia:"),
+	C: read ("carga"),
+	f: read("frequencia"),
+	I: read("corrente"),
+	ang: L*%i*(I*2*%pi)-%i/(C*(L*2*%pi)),
+	carg(ang)
+		
+
+)$

@@ -1,0 +1,11 @@
+funcao() := block(
+	print,
+	print,
+	l: read ("largura"),
+	c: read ("comprimento"),
+	B: read ("campo magnetico"),
+	a: read ("angulo"),
+	M: l*c*sin(a*%pi/180)*B,
+	print("em relacao a xy: ", l*c*sin(a*%pi/180)*B), 
+	print("em relacao a xz: ", l*c*cos(a*%pi/180)*B)
+)$

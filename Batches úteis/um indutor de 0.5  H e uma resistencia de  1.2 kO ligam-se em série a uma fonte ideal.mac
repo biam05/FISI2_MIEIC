@@ -1,0 +1,21 @@
+funcao():= block(
+
+Zi: read("indutancia"),
+Zi: Zi*s,
+Zr: read("resistencia"),
+I: read ("corrente"),
+V: read ("fem"),
+tempo: read ("tempo"),
+Ilp: laplace(I,t,s),
+Vlp: Ilp*(Zi+Zr),
+Vlp: ratsimp(Vlp),
+Vlp: ilt(Vlp,s,t),
+Vlp: Vlp-I*Zr,
+
+Vlp: subst (t=tempo, Vlp),
+display(Vlp),
+print("confirmar substituindo o tempo no expoente da corrente (t) e fazer corrente*Zr*V")
+
+)$
+
+

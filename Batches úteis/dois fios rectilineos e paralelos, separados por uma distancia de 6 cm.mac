@@ -1,0 +1,9 @@
+funcao() := block(
+	I: read ("corrente:"),
+	r: read ("distancia:"),
+
+	T: 2*2*10^-7*I/(r/2)
+	
+	
+	
+)$

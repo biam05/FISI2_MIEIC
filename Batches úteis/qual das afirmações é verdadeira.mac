@@ -1,0 +1,5 @@
+funcao() := block(
+	print("Dentro de um condutor isolado o campo elétrico é sempre nulo."),
+	
+	print("Dentro de um condutor isolado o campo elétrico é sempre nulo.")
+)$

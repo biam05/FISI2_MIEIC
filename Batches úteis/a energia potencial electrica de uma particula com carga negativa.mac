@@ -1,0 +1,6 @@
+funcao() := block(
+	print("Sera maior nos pontos onde o potencial for menor")
+	
+	
+	
+)$

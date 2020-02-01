@@ -1,0 +1,10 @@
+funcao() := block(
+	print,
+	print,
+	C: read ("carga:"),
+	E: read ("campo electrico:"),
+	d: read ("deslocamento:"),
+	ang: read ("angulo"),
+	E*C*d*cos(ang*%pi/180)
+)$
+funcao();

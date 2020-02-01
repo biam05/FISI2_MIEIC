@@ -1,0 +1,11 @@
+
+funcao() := block(
+	print,
+	print,
+	carga: read("carga"),
+	corrente:  read ("corrente"),
+	tempo:  read ("tempo"),
+	(carga - corrente*tempo)/carga*100
+	
+		
+)$

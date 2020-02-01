@@ -1,0 +1,11 @@
+funcao():=(
+	Ve: read("voltagem"),
+	C: read("carga condensador"),
+	Q: C*Ve,
+	Ve_s: laplace(Ve,t,s),
+	Is: Ve*C,
+	I_t: ilt(Is,s,t),
+	I: diff(Q,t),
+	print(I),
+	print(I_t)	
+)$

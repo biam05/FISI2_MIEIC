@@ -1,0 +1,14 @@
+funcao() := block(
+	Print("a bobina estã com o circuito fechado"),
+	print(" e o condensador com o circuito aberto"),
+	R1: read("resistencia 1"),
+	R2: read("resistencia 2"),
+	C: read("condensador"),
+	V: read("fonte"),
+	I: V/(R1+R2),
+	Vq: R2*I,
+	Q: C*Vq
+	
+
+	
+)$

@@ -1,0 +1,9 @@
+funcao() := block(
+	fem: read ("força electromotriz"),
+	trab: read ("trabalho"),
+	temp: read ("tempo"),
+	trab/(temp*fem)
+	
+
+)$
+funcao();

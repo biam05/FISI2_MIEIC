@@ -1,0 +1,8 @@
+funcao() := block(
+	print ("formula V=RI - a induntancia 'funciona' como a resistência"),
+	indutancia: read ("indutancia:"),
+	intensidade: read ("intensidade:"),
+	tempo: read("tempo:"),
+	print ("fem", (indutancia*intensidade)/tempo)	
+
+)$

@@ -1,0 +1,6 @@
+funcao() := block(
+	print ("2.3 + i 1.2  positiva para os indutores"),
+	print ("2.3 - i 1.2  negativa para os condensadores")
+	
+	
+)$

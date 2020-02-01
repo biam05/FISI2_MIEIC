@@ -1,0 +1,11 @@
+funcao() := block(
+	I_s: read ("corrente"),
+	I_s: laplace(I_s,t,s),
+	r: read("resistencia"),
+	c: read("carga"),
+	c: 1/(c*s),
+	ddp: ratsimp(r*c/(r+c)*I_s),
+	i_r_s: ddp/2,
+	i_r_s: ilt(i_r_s,s,t)
+	
+)$

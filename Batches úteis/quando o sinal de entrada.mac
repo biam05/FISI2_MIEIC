@@ -1,0 +1,15 @@
+/* ent: laplace ( 2*%e^(-2*t), t, s);
+sai: laplace (2*%e^t+4*%e^(-2*t), t, s);
+
+sai/ent;
+ratsimp(%); */
+
+funcao() := block(
+	ent: read ("entrada"),
+	saida: read ("saida"),
+	ent: laplace (ent, t,s),
+	saida: laplace (saida,t,s),
+	ratsimp (saida/ent)
+	
+
+)$

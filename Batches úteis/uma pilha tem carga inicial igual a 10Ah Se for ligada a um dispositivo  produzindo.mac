@@ -1,0 +1,8 @@
+funcao() := block(
+	cargaI: read ("carga inicial"),
+	I: read ("corrente"),
+	t: read("tempo"),
+	gasta: I*t,
+	%resta: 100-gasta*100/cargaI
+	
+	)$

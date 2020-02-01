@@ -1,0 +1,38 @@
+funcao() := block(
+
+print("e com modulo que diminui em funcao do tempo"),
+print,
+print("------R-----------"),
+print("|  .  .  .  .  . |"),
+print("|  .  .  .  .  . |"),
+print("|  .  .  .  .  . A"),
+print("|  .  .  .  .  . |"),
+print("|  .  .  .  .  . |"),
+print("------------------"), 
+print,
+print("tem sentido anti-horario"),
+print,
+print,
+print("e com modulo que aumenta em função do tempo do tempo"),
+print,
+print("------R-----------"),
+print("|  +  +  +  +  + |"),
+print("|  +  +  +  +  + |"),
+print("|  +  +  +  +  + A"),
+print("|  +  +  +  +  + |"),
+print("|  +  +  +  +  + |"),
+print("------------------"), 
+print,
+print("tem sentido horario"),
+
+print,
+
+print("com modulo que varia em funcao do tempo"),
+print,
+print("falta informacao para saber o sentido da corrente induzida")
+
+)$
+
+
+
+ 

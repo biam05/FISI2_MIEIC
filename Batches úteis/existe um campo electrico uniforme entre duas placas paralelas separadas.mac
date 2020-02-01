@@ -1,0 +1,7 @@
+funcao() := block(
+	campo: read ("modulo do campo"),
+	r1: read ("distancia"),
+	ddp: integrate (campo,r,0, r1)
+	
+	
+)$

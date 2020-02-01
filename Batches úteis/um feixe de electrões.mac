@@ -1,0 +1,21 @@
+I: laplace (1-%e^(-2398*t), t,s);
+Z: 0.5*s;
+Vs: Z*I;
+Vt: ilt (Vs, s,t);
+Vt: subst (0.417*10^-3, t, Vt)$
+Vt: 5*10^-3*Vt;
+
+I:laplace ((5*10^-3)*(1-%e^(-2398*t)), t,s);
+Z: 0.5*s;
+V: I*Z;
+V: ilt (V, s, t); V: subst (0.417*10^-3, t, V);
+
+
+funcao() := block(
+	print ("formula V=RI"),
+	indutancia: read ("indutancia:"),
+	intensidade: read ("intensidade:"),
+	tempo: read("tempo:"),
+	print ("fem", (indutancia*intensidade)/tempo)	
+
+)$

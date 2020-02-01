@@ -1,0 +1,8 @@
+funcao() := block(
+	A: matrix ([11000,-11000,9],[-11000,25000,-18]),
+	A: echelon(A),
+	float(rowop(A,1,2,-1))
+	
+	
+)$
+funcao();

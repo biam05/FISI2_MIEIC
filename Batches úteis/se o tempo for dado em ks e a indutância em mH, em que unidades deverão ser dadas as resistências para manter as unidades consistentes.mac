@@ -1,0 +1,4 @@
+funcao() := block(
+	print ("R=H/t"),
+		
+)$

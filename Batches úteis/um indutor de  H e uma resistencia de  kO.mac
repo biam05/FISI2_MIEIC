@@ -1,0 +1,9 @@
+funcao():= block(
+	tempo: read("tempo"),
+	corrente: read("corrente"),
+	resistencia: read("resistencia"),
+	fem: read("fem"),
+	corrente: subst(t=tempo, corrente),
+	corrente: fem-corrente*resistencia
+
+)$

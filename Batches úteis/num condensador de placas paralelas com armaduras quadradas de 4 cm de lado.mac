@@ -1,0 +1,11 @@
+print("Atenção às unidades");
+
+funcao() := block(
+	
+	
+	d: read ("distancia"),
+	diel: read ("dielectrico"),
+	Vmax: diel*d
+	
+	
+)$

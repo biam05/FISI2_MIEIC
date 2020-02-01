@@ -1,0 +1,11 @@
+kill (all)$
+load ("vect")$
+funcao() := block(
+	B: read ("vector na forma [ , , ]"),
+	A: read ("na forma 5.0*4.0/2"),
+	I: read ("corrente:"),
+	m: A*I*[0,0,1],
+	T: express (m~B),
+	float (sqrt(T.T))
+	
+)$

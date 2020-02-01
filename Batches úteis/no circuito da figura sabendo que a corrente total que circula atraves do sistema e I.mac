@@ -1,0 +1,17 @@
+funcao() := block(
+	print ("(R2+R3 em serie)  e em paraleo com R1"),
+	print ("      -------R1-----     "),
+	print ("      |            |     "),
+	print ("      |            |     "),
+	print ("---------R2----R3--------"),
+	R1: read ("R1"),
+	R2: read ("R2"),
+	R3: read ("R3"),
+	I: read("corrente"),
+	R4: R2+R3,
+	R5: (R1*R4)/(R1+R4),
+	V:  R5*I,
+	Is: V/R4,
+	print ("ddp em R2: ", Is*R2, "ddp em R3: ", Is*R3)
+			
+)$

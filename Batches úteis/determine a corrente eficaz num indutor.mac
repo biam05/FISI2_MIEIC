@@ -1,0 +1,9 @@
+funcao() := block(
+	print ("V=Z*(%i*w)*I"),
+	indutancia: read ("indutancia:"),
+	volt: read ("ddp:"),
+	frequencia: read ("frequencia:"),
+	w: 2*%pi*frequencia,
+	I: cabs (volt/(indutancia*w*%i)),
+	Ieficaz: float (I/sqrt(2))
+)$

@@ -1,0 +1,4 @@
+funcao() := block(
+	n: read("numero de constantes"),
+	print( float((1/%e))^n)
+)$

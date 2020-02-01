@@ -1,0 +1,5 @@
+funcao() := block(
+	print("Os seu pontos de equilibrio podem ser centros.")
+	
+	
+)$

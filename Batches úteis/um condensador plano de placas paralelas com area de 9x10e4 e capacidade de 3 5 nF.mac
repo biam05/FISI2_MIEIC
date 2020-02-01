@@ -1,0 +1,10 @@
+funcao() := block(
+	A: read("area"),
+	F: read ("carga F"),
+	diel: read ("dielectrico"),
+	V: read ("volt"),
+	d: (diel*A)/(4*%pi*9e9*F),
+	Emax: V/d
+	
+	
+)$

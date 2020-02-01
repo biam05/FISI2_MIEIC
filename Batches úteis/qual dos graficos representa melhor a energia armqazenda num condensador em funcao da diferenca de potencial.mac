@@ -1,0 +1,6 @@
+funcao() := block(
+	print("U=1/2*C*V^2, 1/2*C é constante"),
+	plot2d (V^2, [V,0,10])
+	
+		
+)$

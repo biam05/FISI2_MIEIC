@@ -1,0 +1,5 @@
+funcao() := block(
+	print (""),
+	print ("conservação e quantização.")
+	
+)$

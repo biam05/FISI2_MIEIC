@@ -1,0 +1,7 @@
+funcao() := block(
+	print ("formula Eesfera=K*Q/r^2"),
+	rigidez: read ("rigidez:"),
+	carga: read ("carga:"),
+	raio: float (sqrt(9*10^9*carga/rigidez))
+	
+)$

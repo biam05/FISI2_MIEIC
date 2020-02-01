@@ -1,0 +1,14 @@
+
+
+
+funcao() := block(
+print ("formula: Z=L+R"),
+print,
+print,
+F: read ("Frequencia:"),
+R: read ("Resistencia:"),
+H: read ("Indutância:"),
+W: (2*%pi*F),
+L: (%i*W*H),
+z: float(cabs (L+R))
+)$

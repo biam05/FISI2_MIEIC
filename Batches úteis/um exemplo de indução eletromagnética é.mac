@@ -1,0 +1,3 @@
+funcao() := block(
+	print("A corrente num fio, produzida por um campo magnético variável.")
+)$

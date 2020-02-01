@@ -1,0 +1,12 @@
+funcao() := block(
+	f: read (" frequencia"),
+	w: 2*%pi*f,
+	I: read ("corrente"),
+	dV: read("tensao"),
+	Z: dV/I,
+	L: read ("induntancia"),
+	XL: W*L,
+	R: Z-%i*X,
+	realpart(R)
+		
+)$

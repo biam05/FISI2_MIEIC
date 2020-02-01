@@ -1,0 +1,6 @@
+funcao () := (
+C: read ("carga "),
+V: read ("potencial"),
+C*V
+
+)$

@@ -1,0 +1,10 @@
+funcao() := block(
+	print,
+	print,
+	print,
+	W: read ("potencia"),
+	V: read ("volt"),
+	R: V^2/W
+	
+	
+)$

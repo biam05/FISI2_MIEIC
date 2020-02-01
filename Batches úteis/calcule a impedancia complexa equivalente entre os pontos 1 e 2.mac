@@ -1,0 +1,8 @@
+C(w,c):= -%i/(w*c);
+L(w,l):= %i*w*l;
+P(a,b):= a*b/(a+b);
+S(a,b):= a+b;
+
+P(S(C(w,c), C(w,c)), L(w,l));
+
+ratsimp(%);

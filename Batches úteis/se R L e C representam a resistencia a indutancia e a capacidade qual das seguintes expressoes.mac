@@ -1,0 +1,8 @@
+funcao() := block(
+	print ("tem unidades de frequencia ao quadrado"),
+	print ("1/(LC")
+	print ("tem unidade de resistencia ao quadrado"),
+	print ("L/C")
+	
+	
+)$

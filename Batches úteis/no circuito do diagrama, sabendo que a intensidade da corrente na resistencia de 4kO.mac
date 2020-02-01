@@ -1,0 +1,17 @@
+funcao() := block(
+	print ("--------3Kom---"),
+	print ("|         |    |"),
+	print ("|         |    |"),
+	print ("-----4Kom--    |"),
+	print ("|              |"),
+	print ("--1Kom---V-----"),
+	C1: read ("resistencia = a "),
+	Q1: read (" carga armazenada"),
+	C2: read ("resistencia cima do resistencia com carga"),
+	C3: read(" carga ao lado da fem ?"),
+	V: Q1*C1,
+	I: V/C2,
+	IT:Q1+I,
+	V1: C3*IT,
+	Volt: V1+V
+)$

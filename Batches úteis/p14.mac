@@ -1,0 +1,16 @@
+system("/teste1819/p14.jpg")$
+kill (all)$
+funcao() := block(
+	
+	H: read ("H(s)"),
+	ent: read ("entrada"),
+	ent: laplace(ent,t,s),
+	sai: H*ent,
+	sai: ilt(sai,s,t)
+	
+	
+	
+)$
+
+
+

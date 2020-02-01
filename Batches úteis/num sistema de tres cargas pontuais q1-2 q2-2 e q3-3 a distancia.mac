@@ -1,0 +1,10 @@
+funcao() := block(
+	Q1: read ("Q1"),
+	Q2: read ("Q2"),
+	Q3: read ("Q3"),
+	D1: read ("distancia de 1 a 3"),
+	D2: read ("distancia de 2 a 3"),
+	F13: Q1*Q3*9e9/D1^2,
+	F23: Q2*Q3*9e9/D2^2,
+	Res: float(F13/F23)
+)$

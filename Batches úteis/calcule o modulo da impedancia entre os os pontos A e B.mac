@@ -1,0 +1,9 @@
+funcao() := block(
+	f: read ("frequencia"),
+	w: 2*%pi*f,
+	R: read ("resistencia"),
+	H: read ("indutancia"),
+	Z: H*w*%i+R,
+	Z: float (cabs(Z))
+	
+)$

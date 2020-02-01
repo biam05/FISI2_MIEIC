@@ -1,0 +1,14 @@
+/* Broas sem querer ser fdp podias fazer isto tendo em conta que o condensador no instante inicial atua como curto circuito, entao passas a ter a resistencia de 6 em paralelo com a de 3 (6//3 = 2 kohm) e isto em serie com a de 2 kohm (2+2 = 4 kohm). Depois é so aplicar I= V/R e tens 40/4e3 = 10 mA. Assim nao tens que andar com impedancias.*/
+
+
+funcao() := block(
+	print ("formula: F=q*(v*B)"),
+	print,
+	print,
+	F: read ("força:"),
+	q: read ("carga:"),
+	v: read ("velocidade:"),
+	B: read ("campo magnetico :"),
+	F: F=q*(v*B)
+	
+)$

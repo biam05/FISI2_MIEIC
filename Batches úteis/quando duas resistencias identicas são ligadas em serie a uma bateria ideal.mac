@@ -1,0 +1,9 @@
+funcao() := block(
+	print,
+	print,
+	Vt: read ("Fonte:"),
+	It: read ("Corrente:"),
+	PhaseVt: read("Fase fonte"),
+	PhaseIt: read ("Fase corrente:"),
+	Zcomplexa: Vt/It*%e^(-%i*(PhaseIt-PhaseVt))
+)$

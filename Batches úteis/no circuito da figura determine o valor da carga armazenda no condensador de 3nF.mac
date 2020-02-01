@@ -1,0 +1,20 @@
+funcao() := block(
+	print("------------"),
+	print("|      |      |"),
+	print("|      |     5nF"),	
+	print("9V 3nF   |"),
+	print("|      |     4nF"),
+	print("|      |      |"),
+	print("------------"),
+	V: read("fem."),
+	C1: read("condensador 5nF-serie"),
+	C2: read("condensador 4nF-serie"),
+	C3: read("condensador 3nF-paralelo"),
+	C4: (C1*C2)/(C1+C2),
+	Q: C4*V,
+	print ("ddp em 5nF: ", Q/C1, "ddp em 4nF: ", Q/C2),
+	print ("carga em 5nF: ", C1*Q/C1, "carga em 4nF: ", C2*Q/C2)
+
+)$
+
+

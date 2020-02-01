@@ -1,0 +1,9 @@
+funcao() := block(
+	C: read ("carga F"),
+	fem: read ("fem"),
+	R: read ("resistencia"),
+	t: read ("tempo"),
+	Q: fem*C*(1-%e^(-t/(R*C)))
+	
+	
+)$

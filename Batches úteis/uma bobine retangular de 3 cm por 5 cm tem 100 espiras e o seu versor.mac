@@ -1,0 +1,20 @@
+funcao():=(
+	print ("Fluxo=A*B*cos(Teta)"),
+	print ("Ffinal-Finicial:"),
+	lado1: read ("comprimento"),
+	lado2: read ("largura"),
+	B: read ("Campo magnético value (T)"),
+	angI: read ("inicial em (graus)"),
+	angF: read ("final em (graus)"),
+	nEspiras: read ("nºde Espiras"),
+	tempo: read("tempo de rotação"),
+	angIradianos: angI*%pi/180,
+	angFradianos: angF*%pi/180,
+	FluxoInitial: B*cos(angIradianos)*nEspiras*lado1*lado2,
+	Ffinal:B*cos(angFradianos)*nEspiras*lado1*lado2,
+	fem: (Ffinal-FluxoInitial)/tempo,
+	float (fem)
+)$
+
+
+

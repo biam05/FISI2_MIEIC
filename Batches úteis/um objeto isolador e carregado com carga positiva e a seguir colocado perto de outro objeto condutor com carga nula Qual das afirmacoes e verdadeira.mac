@@ -1,0 +1,3 @@
+funcao():= block(
+	print ("Sobre os dois objetos atuara uma forca eletrostatica atrativa")	
+)$

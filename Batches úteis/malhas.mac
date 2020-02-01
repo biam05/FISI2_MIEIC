@@ -1,0 +1,46 @@
+/*
+	Lida com problemas das malhas de forma mutável.
+	No máximo podem haver nmalhas incógnitas, deixar com um nome genérico o que se quiser descobrir.
+	
+-ss
+*/
+
+malhas() := (
+	block([len, sr, front, R, I, V, eq, sol],
+		print("Batch para as malhas, aceita nmalhas incognitas, basta deixar como variaveis, para exercicios em que o condensador faz de fonte a sua carga = volts."),
+		len: read("numero de malhas? "),
+		/* soma das resist */
+		sr: makelist(read("soma das resistencias na malha", i, ":"),i, 1, len),
+		/* fronteiras */
+		for i: 1 thru len do(
+			for j: i+1 thru len do(
+				if i#j then
+				front[i,j]: read("soma das resistencias na fronteira entre a malha", i, "e", j, ":")
+			)
+		),
+		R_mat: generateRMat_v2(sr, front, len),
+		I_list: makelist(read("i no campo ", x, ":"), x, 1, len),
+		V_list: makelist(read("v no campo ", x, ":"), x, 1, len),
+		print("R",R_mat,"I",transpose(I_list),"V",transpose(V_list)),
+		eq: map("=", list_matrix_entries(R_mat.I_list), V_list),
+		sol: float(solve(eq))
+	)
+)$
+
+generateRMat_v2(sr, front, len) := (
+block(
+		final_mat: matrix(),
+		mat_list: makelist(),
+		for i: 1 thru len do(
+			for j: 1 thru len do(
+				if i = j
+				then mat_list: append(mat_list, makelist(sr[i]))
+				/* para lidar com o facto de não pedir input repetido */
+				else mat_list: append(mat_list, makelist(-front[min(i,j), max(i,j)]))
+			),
+			final_mat: addrow(final_mat, mat_list),
+			mat_list: makelist()
+		),
+		final_mat
+	)
+)$

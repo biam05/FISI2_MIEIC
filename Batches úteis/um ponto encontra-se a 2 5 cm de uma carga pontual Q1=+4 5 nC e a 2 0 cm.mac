@@ -1,0 +1,7 @@
+funcao () := (
+Q1: read ("carga 1"),
+D1: read ("primeira distância"),
+D2: read ("segunda distâncis"),
+EQ: float(solve(9e9*((Q1/D1)+(Q2/D2)))),
+print("EQ ",EQ)
+)$

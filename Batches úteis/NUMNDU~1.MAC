@@ -1,0 +1,17 @@
+system("/teste1819/P8.jpg")$
+funcao():= block(
+
+	ph1: read("fasor 1"),
+	ph2: read("fasor 2"),
+	I1: read("corrente 1"),
+	I2: read("corrente 2"),
+	A: I1*(cos(ph1)+sin(ph1)*%i),
+	B: I2*(cos(ph2)+sin(ph2)*%i),
+	C: A+B,
+	print ("corrente: ",cabs(C)),
+	print ("phasor: ", carg(C))
+
+)$
+
+
+

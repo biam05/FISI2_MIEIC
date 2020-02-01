@@ -1,0 +1,7 @@
+funcao() := block(
+	V: read ("fem:"),
+	energia: read ("energia total:"),
+	I: read ("corrente:"),
+	W: V*I,
+	energia/W
+)$

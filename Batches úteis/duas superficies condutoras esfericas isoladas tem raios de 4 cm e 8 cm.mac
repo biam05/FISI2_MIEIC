@@ -1,0 +1,8 @@
+
+funcao() := block(
+	print ("só interessa a esfera com raio menor ao ponto"),
+	carga: read ("carga esfera menor"),
+	ponto: read ("ponto do centro"),
+	potencial: 9*10^9*carga/ponto^2	
+
+)$

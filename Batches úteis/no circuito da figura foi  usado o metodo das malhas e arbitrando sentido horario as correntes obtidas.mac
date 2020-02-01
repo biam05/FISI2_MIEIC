@@ -1,0 +1,8 @@
+funcao():= block(
+	I1: read ("Corrente 1"),
+    	I2: read ("Corrente 2"),
+	V: read ("Voltagem"),
+	I: I2 - I1,
+	P: V*I
+
+)$

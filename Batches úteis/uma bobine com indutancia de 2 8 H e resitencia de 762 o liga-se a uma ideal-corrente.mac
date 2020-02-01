@@ -1,0 +1,9 @@
+funcao() := block(
+	print,
+	print,
+	H: read ("Indutancia:"),
+	V: read ("fonte:"),
+	R: read("resistencia"),
+	t: read ("tempo:"),
+	I: V/R*(1-%e^(-R/H*t))
+)$

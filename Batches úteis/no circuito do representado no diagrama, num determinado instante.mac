@@ -1,0 +1,15 @@
+funcao() := block(
+	print (" 3 - 4000*I2 - 3000*(I2-I1) + V = 0"),
+	print (" Q = V*C"),
+	I1: read("I1"),
+	I2: read("I2"),
+	R1: read("formulario ver posicao do 4kom"),
+	R2: read("formulario ver posicao do 3kom"),
+	C: read("condensador a calcular"),
+	V1: read("voltagem da fonte do circuito"),
+	EQ: V1 - R1*I2 - R2*(I2-I1) + V = 0,
+	SOL: solve(EQ),
+	print,
+	print("          resposta no V"),
+	float(SOL*C)
+)$

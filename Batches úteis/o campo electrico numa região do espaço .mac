@@ -1,0 +1,6 @@
+funcao() := block(
+	X: read("(X,0,0)"),
+	Y: read("(0,Y,0)"),
+	Z: read ("Z do vetor"),
+	E: ((X*Y)/2)*Z
+)$

@@ -1,0 +1,4 @@
+
+funcao () := (
+print ("apos passar muto tempo, o indutor comporta-se com um fio electrico, logo não vai ter diferença de potencial - zero")
+)$

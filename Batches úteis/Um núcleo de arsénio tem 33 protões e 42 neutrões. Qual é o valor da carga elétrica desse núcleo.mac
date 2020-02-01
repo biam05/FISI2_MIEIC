@@ -1,0 +1,4 @@
+funcao() := block(
+	PE:	read("Protoes(+) ou eletroes(-)"),
+	Res: PE*1.602e-19
+)$

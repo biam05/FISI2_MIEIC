@@ -1,0 +1,16 @@
+kill(all);
+load("vect");
+funcao() := block(
+	print ("se o campo aponta para a esquerda o referencial Oxyz"),
+	print ("x-positivo par baixo"),
+	print ("y-positivo para a direita"),
+	print ("z-positivo para fora da folha"),
+	B: [0,-1,0],
+	v: read ("vector da carga"),
+	s: read ("sinal da carga"),
+	s*express(v~B)
+)$
+
+
+
+
